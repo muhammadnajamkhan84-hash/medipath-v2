@@ -930,6 +930,16 @@ body.dark-mode .no-bookings { color: #9aa3b5; }
   background: transparent;
   color: var(--charcoal);
   border: 1px solid var(--charcoal);
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: .8;
+}
+.logout-btn:hover { opacity: 1; background: rgba(128, 128, 128, .12); }
+
 
 /* ---- Show / hide password eye button ---- */
 .password-wrap { position: relative; }
