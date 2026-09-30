@@ -928,16 +928,8 @@ body.dark-mode .no-bookings { color: #9aa3b5; }
 /* ---- Logout button in the navbar ---- */
 .logout-btn {
   background: transparent;
-  color: var(--cream);
-  border: 1px solid rgba(255, 255, 255, .45);
-  padding: 8px 16px;
-  border-radius: 6px;
-  font-weight: 600;
-  cursor: pointer;
-  font-size: 14px;
-  white-space: nowrap;
-}
-.logout-btn:hover { background: rgba(255, 255, 255, .15); }
+  color: var(--charcoal);
+  border: 1px solid var(--charcoal);
 
 /* ---- Show / hide password eye button ---- */
 .password-wrap { position: relative; }
